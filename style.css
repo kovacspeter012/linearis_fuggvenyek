@@ -1,0 +1,12 @@
+body{
+    width: 70%;
+
+}
+.carousel-item{
+    max-width: 100%;
+    max-height: 23rem;
+}
+#carousel{
+    width: 60%;
+    margin: 0 auto;
+}
