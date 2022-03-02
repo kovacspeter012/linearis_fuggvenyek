@@ -3,6 +3,8 @@ body{
     background-image: url('images/background.jpg');
     background-repeat: repeat;
     background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
 }
 td{
     padding: auto;
@@ -16,6 +18,9 @@ th{
     height: 4rem;
     border:1px solid black ;
 }
+h1, h2, h3, h4, h5, h6{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .carousel-item{
     max-width: 100%;
@@ -24,6 +29,13 @@ th{
 .align-justify{
     text-align: justify;
     text-indent: 2rem;
+    
+}
+.container{
+    padding: 0;
+}
+.focontent{
+    padding: 1rem;
 }
 
 #carousel{
