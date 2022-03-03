@@ -38,36 +38,41 @@
             </p>
             <h2>A függvény ábrázolása</h2>
             <div class="row">
-                <div class="col-8">
-                    <h5 class="text-center">Érték tábázat</h5>
+                <div class="col-12 col-lg-8">
+                    <h4 class="text-center">Érték táblázat</h4>
+                    <p class="align-justify">
+                        Először ajánlott érték táblázatot készíteni az alábbi módon, így egyszerűbb az ábrázolás. Az ábrán látható fekete függvénygörbe az alapfüggvény. Más dolgunk nics mint bejelölni a pontokat az ábrán a táblázatban szereplő koordináták segítségével. Például a 0-hoz 0 tartozik ami azt jelenti hogy a pont a (0;0) koordinátára kerül. -2 esetén 4 az y értéke tehát a (-2;4) koordinátára kerül az a pont. Ezeket a pontokat utána már csak összekötjük és kész a függvény ábrázolása. Már csak az alábbi szempontok szerint kell őket jellemezni. Ez a függvény már eltérő lesz az eddigiektől.
+                    </p>   
                     <table class="text-center">
                         <tr>
+                            <th>x értéke</th>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>4</td>
+                            <td>9</td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
                             <th>y értéke</th>
-                            <td>-3</td>
-                            <td>-2</td>
-                            <td>-1</td>
                             <td>0</td>
                             <td>1</td>
                             <td>2</td>
                             <td>3</td>
-                        </tr>
-                        <tr>
-                            <th>x értéke</th>
-                            <td>9</td>
                             <td>4</td>
-                            <td>1</td>
-                            <td>0</td>
-                            <td>1</td>
-                            <td>4</td>
-                            <td>9</td>
+
                         </tr>
                     </table>
                     <h4>Folyamata:</h4>
                     <ol>
+                        <li><span class="fw-bold">Értelmezési tartomány:</span> Ez az érték ebben az esetben az össze nullánál nem kisebb valós szám mivel az x tengelyen csak pozitív irányban végtelen a függvény.</li>
+                        <li><span class="fw-bold">Érték készlet:</span> Ebben az esetben ez az érték az összes 0-nál nem kisebb valós szám mivel az y tengelyen csak pozitív irányban végtelen a függvény.</li>
+                        <li><span class="fw-bold">Zénus hely:</span> Ebben az esetben ez a pont a (0;0) koordináta mint minden alap függvénynek, de ennél már nem fordulhat elő hogy 2 helyen metszi az x tengelyt.</li>
+                        <li><span class="fw-bold">Monotonitás:</span> Ebben az esetben nincs több féle monotonítása mivel a függvény a (0;0) koordinátától nézve folyamatosan növekszik.</li>
+                        <li><span class="fw-bold">Szélső érték pont:</span> Ennek a függvénynek ez a pontja (0;0) egy minimum pont mivel az y tengelyen nem vesz föl 0-nál kisebb értéket. </li>
                     </ol>
                 </div>
-                <div class="col-4">
-                    <img src="images/abszolútfvg.jpg" alt="abszolútérték függvény" class="w-100">
+                <div class="col-12 col-lg-4">
+                    <img src="images/négyzetgyökfvg.jpg" alt="négyzetgyök függvény" class="w-100">
                     <br>
                     <span class="fst-italic">Abszolútérték függvény ábrázolva</span>
                 </div>
@@ -83,14 +88,15 @@
             
             
             </div>
-            <div class="footer bg-warning">
-                <div class="row">
-                    <div class="col-9">
-                        Minden információ a <a href="https://hu.wikipedia.org" id="footer-a" class="text-light">wikipédia</a> oldaláról származik.
-                    </div>
-                    <div class="col-3">
-                        <a href="#carousel" id="footer-a" class="text-light">Vissza az oldal tetejére</a>
-                    </div>
+            
+        </div>
+        <div class="footer bg-warning">
+            <div class="row">
+                <div class="col-9">
+                    Minden információ a <a href="https://hu.wikipedia.org" id="footer-a" class="text-light">wikipédia</a> oldaláról származik.
+                </div>
+                <div class="col-3">
+                    <a href="#carousel" id="footer-a" class="text-light">Vissza az oldal tetejére</a>
                 </div>
             </div>
         </div>
